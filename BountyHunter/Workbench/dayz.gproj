@@ -6,9 +6,20 @@ GameProjectClass {
 			platformHardware PC
 			skeletonDefinitions "DZ/Anims/cfg/skeletons.anim.xml"
 			FileSystem {
-
+                FileSystemPathClass {
+                    Name "Game Root"
+                    Directory "P:"
+                }
+		
+				FileSystemPathClass {
+					Name "Community Framework"
+					Directory "P:\JM\CF"
+				}
+				FileSystemPathClass {
+					Name "BountyHunter"
+					Directory "P:\BountyHunter"
+				}
 			}
-			
 			imageSets {
 				"gui/imagesets/ccgui_enforce.imageset"
 				"gui/imagesets/rover_imageset.imageset"
@@ -34,8 +45,6 @@ GameProjectClass {
 					Name "core"
 					Paths {
 						"scripts/1_Core"
-						"JM/CF/scripts/1_Core"
-						"BountyHunter/scripts/1_Core"
 					}
 					EntryPoint ""
 				}
@@ -50,8 +59,6 @@ GameProjectClass {
 					Name "game"
 					Paths {
 						"scripts/3_Game"
-						"JM/CF/scripts/3_Game"
-						"BountyHunter/scripts/3_Game"
 					}
 					EntryPoint "CreateGame"
 				}
@@ -59,8 +66,6 @@ GameProjectClass {
 					Name "world"
 					Paths {
 						"scripts/4_World"
-						"JM/CF/scripts/4_World"
-						"BountyHunter/scripts/4_World"
 					}
 					EntryPoint ""
 				}
@@ -68,8 +73,6 @@ GameProjectClass {
 					Name "mission"
 					Paths {
 						"scripts/5_Mission"
-						"JM/CF/scripts/5_Mission"
-						"BountyHunter/scripts/5_Mission"
 					}
 					EntryPoint "CreateMission"
 				}
@@ -79,7 +82,7 @@ GameProjectClass {
 					Paths {
 						"scripts/editor/Workbench"
 						"scripts/editor/plugins"
-						"BountyHunter/Workbench/Editor/plugins"
+						"BountyHunter/Workbench/Editor/Plugins"
 					} 
 					EntryPoint ""
 				} 
