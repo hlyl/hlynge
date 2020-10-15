@@ -96,14 +96,6 @@ class BuildModAndLaunch: DayZProjectManager
 		RunDayZBat(BatchFile1, true);
 		RunDayZBat(BatchFile2, true);
 	}
-
-
-	override void Run()
-	{
-		RunDayZBatList({"P:\\Bounty_fix\\workbench\\Batchfiles\\Exit.bat",
-		"P:\\Bounty_fix\\workbench\\Batchfiles\\ZBinarizeDeploy.bat", 
-		"P:\\Bounty_fix\\workbench\\Batchfiles\\LaunchOffline.bat"});
-	}
 }
 
 [WorkbenchPluginAttribute("-> Launch Server+Client", "Launches Server+Client", "Ctrl+F6", "", {"ResourceManager", "ScriptEditor"})]

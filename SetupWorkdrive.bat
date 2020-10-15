@@ -4,12 +4,12 @@ cd /D "%~dp0"
 
 
 
-IF exist "P:\DaySEditor\" (
-	echo Removing existing link P:\DaySEditor
-	rmdir "P:\DaySEditor\"
+IF exist "P:\Master\" (
+	echo Removing existing link P:\Master
+	rmdir "P:\Master\"
 )
 
-Rem echo Creating link P:\DayZEditor
-Rem  mklink /J "P:\DayZEditor\" "%cd%\DayZEditor\"
+ echo Creating link P:\Master
+  mklink /J "P:\Master\" "%cd%\Master\"
 
 echo Done
