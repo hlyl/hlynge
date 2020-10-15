@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{11371FBC82FC8CAE}MultiplayerGame/Bounty_fix/Scripts/5_Mission/gui/BountyHunt50.tga"
+ Author "desktop-dtsrosd"
+ ChangeDate 1019554115
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "BountyHunt50.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

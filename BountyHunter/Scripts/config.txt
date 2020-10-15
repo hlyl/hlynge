@@ -1,0 +1,54 @@
+class CfgPatches
+{
+    class BountyHunter_Scripts
+    {
+        units[]={};
+        weapons[]={};
+        requiredVersion=0.1;
+        requiredAddons[]=
+        {
+            "DZ_Data"
+        };
+    };
+};
+
+class CfgMods
+{
+	class BountyHunter
+	{
+		dir = "hlynge/BountyHunter";
+		picture = "";
+		action = "";
+		hideName = 0;
+		hidePicture = 1;
+		name = "BountyHunter";
+		credits = "hlynge";
+		creditsJson = "hlynge/BountyHunter/Scripts/Data/Credits.json";
+		author = "hlynge";
+		authorID = "0"; 
+		version = "0.1"; 
+		extra = 0;
+		type = "mod";
+		
+		dependencies[] = { "Game", "World", "Mission" };
+		
+		class defs
+		{
+			class gameScriptModule
+			{
+				value = "";
+				files[] = {"hlynge/BountyHunter/Scripts/3_Game"};
+			};
+			class worldScriptModule
+			{
+				value = "";
+				files[] = {"hlynge/BountyHunter/Scripts/4_World"};
+			};
+			class missionScriptModule
+			{
+				value = "";
+				files[] = {"hlynge/BountyHunter/Scripts/5_Mission"};
+			};
+		};
+	};
+};

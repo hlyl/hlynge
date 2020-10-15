@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+
+	<!-- declarations -->
+	<inputs>
+		<actions>
+			<input name="UAToggleBounty" loc="Toggle Bounty" />
+			<input name="UAToggleBountyMap" loc="Toggle BountyMap" />
+		</actions>
+	</inputs>
+
+	<!-- preset -->
+	<preset>
+		<input name="UAToggleBounty">
+			<btn name="kI" />
+		</input>
+		<input name="UAToggleBountyMap">
+			<btn name="kO" />
+		</input>
+	</preset>
+</modded_inputs>
