@@ -35,7 +35,7 @@ GameProjectClass {
 					Paths {
 						"scripts/1_Core"
 						"JM/CF/scripts/1_Core"
-						"Master/scripts/1_Core"
+						"M@ster/scripts/1_Core"
 					}
 					EntryPoint ""
 				}
@@ -51,7 +51,7 @@ GameProjectClass {
 					Paths {
 						"scripts/3_Game"
 						"JM/CF/scripts/3_Game"
-						"Master/scripts/3_Game"
+						"M@ster/scripts/3_Game"
 					}
 					EntryPoint "CreateGame"
 				}
@@ -60,7 +60,7 @@ GameProjectClass {
 					Paths {
 						"scripts/4_World"
 						"JM/CF/scripts/4_World"
-						"Master/scripts/4_World"
+						"M@ster/scripts/4_World"
 					}
 					EntryPoint ""
 				}
@@ -69,7 +69,7 @@ GameProjectClass {
 					Paths {
 						"scripts/5_Mission"
 						"JM/CF/scripts/5_Mission"
-						"Master/scripts/5_Mission"
+						"M@ster/scripts/5_Mission"
 					}
 					EntryPoint "CreateMission"
 				}
@@ -79,7 +79,7 @@ GameProjectClass {
 					Paths {
 						"scripts/editor/Workbench"
 						"scripts/editor/plugins"
-						"Master/Workbench/Editor/plugins"
+						"M@ster/Workbench/Editor/plugins"
 					} 
 					EntryPoint ""
 				} 

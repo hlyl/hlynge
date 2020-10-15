@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class Master_Scripts
+    class M@ster_Scripts
     {
         units[]={};
         weapons[]={};
@@ -14,16 +14,16 @@ class CfgPatches
 
 class CfgMods
 {
-	class Master
+	class M@ster
 	{
-		dir = "hlynge/Master";
+		dir = "hlynge/M@ster";
 		picture = "";
 		action = "";
 		hideName = 0;
 		hidePicture = 1;
-		name = "Master";
+		name = "M@ster";
 		credits = "hlynge";
-		creditsJson = "hlynge/Master/Scripts/Data/Credits.json";
+		creditsJson = "hlynge/M@ster/Scripts/Data/Credits.json";
 		author = "hlynge";
 		authorID = "0"; 
 		version = "0.1"; 
@@ -37,17 +37,17 @@ class CfgMods
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"hlynge/Master/Scripts/3_Game"};
+				files[] = {"hlynge/M@ster/Scripts/3_Game"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"hlynge/Master/Scripts/4_World"};
+				files[] = {"hlynge/M@ster/Scripts/4_World"};
 			};
 			class missionScriptModule
 			{
 				value = "";
-				files[] = {"hlynge/Master/Scripts/5_Mission"};
+				files[] = {"hlynge/M@ster/Scripts/5_Mission"};
 			};
 		};
 	};

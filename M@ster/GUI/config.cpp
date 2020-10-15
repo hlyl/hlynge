@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class Master_GUI
+    class M@ster_GUI
     {
         units[]={};
         weapons[]={};
