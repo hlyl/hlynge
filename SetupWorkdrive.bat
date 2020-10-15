@@ -4,12 +4,12 @@ cd /D "%~dp0"
 
 
 
-IF exist "P:\Bounty_fix\" (
-	echo Removing existing link P:\Bounty_fix
-	rmdir "P:\Bounty_fix\"
+IF exist "P:\DaySEditor\" (
+	echo Removing existing link P:\DaySEditor
+	rmdir "P:\DaySEditor\"
 )
 
- echo Creating link P:\Bounty_fix
- mklink /J "P:\Bounty_fix\" "%cd%\Bounty_fix\"
+Rem echo Creating link P:\DayZEditor
+Rem  mklink /J "P:\DayZEditor\" "%cd%\DayZEditor\"
 
 echo Done
