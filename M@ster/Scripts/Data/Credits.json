@@ -1,0 +1,23 @@
+{
+    "Departments": [
+        {
+            "DepartmentName": "M@ster",
+            "Sections": [
+                {
+                    "SectionName": "Developers",
+                    "SectionLines": [
+                        "Jacob_Mango",
+                        "Arkensor"
+                },
+                {
+                    "SectionName": "Special Thanks",
+                    "SectionLines": [
+                        "Hlynge",
+						"Dance Of Jesus",
+						"InclementDab"
+                    ]
+                }
+            ]
+        }
+    ]
+}
