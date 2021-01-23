@@ -7,17 +7,9 @@ GameProjectClass {
 			skeletonDefinitions "DZ/Anims/cfg/skeletons.anim.xml"
 			FileSystem {
 				FileSystemPathClass {
-					Name "Game Root"
-					Directory "P:"
-				}
-				FileSystemPathClass {
-					Name "Community Framework"
-					Directory "P:\JM\CF"
-				}
-				FileSystemPathClass {
-					Name "M@ster"
-					Directory "P:\M@ster"
-				}
+				Name "Game Root"
+				Directory "P:"
+				}			
 			}
 			imageSets {
 				"gui/imagesets/ccgui_enforce.imageset"
@@ -44,6 +36,8 @@ GameProjectClass {
 					Name "core"
 					Paths {
 						"scripts/1_Core"
+						"JM/CF/defines"
+						"JM/CF/scripts/1_Core"
 					}
 					EntryPoint ""
 				}
@@ -58,6 +52,12 @@ GameProjectClass {
 					Name "game"
 					Paths {
 						"scripts/3_Game"
+						"JM/CF/defines"
+						"JM/CF/XML/3_Game"
+						"JM/CF/LayoutBindingManager/3_Game"
+						"JM/CF/Permissions/3_Game"
+						"JM/CF/scripts/3_Game"
+						"M@ster/scripts/3_Game"
 					}
 					EntryPoint "CreateGame"
 				}
@@ -65,6 +65,10 @@ GameProjectClass {
 					Name "world"
 					Paths {
 						"scripts/4_World"
+						"JM/CF/defines"
+						"JM/CF/scripts/4_World"
+						"JM/CF/Permissions/4_World"
+						"M@ster/scripts/4_World"
 					}
 					EntryPoint ""
 				}
@@ -72,6 +76,11 @@ GameProjectClass {
 					Name "mission"
 					Paths {
 						"scripts/5_Mission"
+						"JM/CF/defines"
+						"JM/CF/scripts/5_Mission"
+						"JM/CF/LayoutBindingManager/5_Mission"
+						"JM/CF/Permissions/5_Mission"
+						"M@ster/Scripts/5_Mission"
 					}
 					EntryPoint "CreateMission"
 				}
